@@ -17,7 +17,7 @@ public class RoomController {
 	private RoomService service;
 	
 	@GetMapping
-	public Iterable<Room> getAllRoom() {
+	public Iterable<Room> getAllRooms() {
 		return service.getAllRoom();
 	}
 	

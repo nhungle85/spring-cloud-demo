@@ -9,9 +9,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Room {
+public class Guest {
 	private long id;
-	private String roomName;
-	private String roomNumber;
-	private String bedInfo;
+	private String firstName;
+	private String lastName;
+	private String emailAddress;
+	private String address;
+	private String country;
+	private String state;
+	private String phoneNumber;
 }

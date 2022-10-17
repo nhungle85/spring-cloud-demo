@@ -1,5 +1,8 @@
 package com.nle.springcloud.roomreservationservices;
 
+
+import java.sql.Date;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,9 +12,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Room {
+public class Reservation {
 	private long id;
-	private String roomName;
-	private String roomNumber;
-	private String bedInfo;
+	private long roomId;
+	private long guestId;
+	private Date date;
 }

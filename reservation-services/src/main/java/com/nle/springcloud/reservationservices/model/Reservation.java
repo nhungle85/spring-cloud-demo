@@ -26,6 +26,9 @@ public class Reservation {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 	
+	@Column(name = "ROOM_ID")
+	private long roomId;
+	
 	@Column(name = "GUEST_ID")
 	private long guestId;
 
